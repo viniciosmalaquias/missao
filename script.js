@@ -6,13 +6,10 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Qual é um dos princípios fundamentais do desenvolvimento sustentável?
-",
-        alternativas: 
+        enunciado: "Qual é um dos princípios fundamentais do desenvolvimento sustentável?",
+        alternativas: [
             {
-                texto:"Equidade social
-
-",
+                texto:"Equidade social",
                 afirmacao: "O desenvolvimento sustentável busca promover a equidade social, garantindo que os benefícios do crescimento econômico sejam distribuídos de maneira justa entre todas as camadas da sociedade."
             },
             {
@@ -40,7 +37,7 @@ const perguntas = [
         enunciado: "Qual é uma estratégia comum para alcançar os objetivos de desenvolvimento sustentável?",
         alternativas: [
             {
-                texto: "Investimento em energia renovável"
+                texto: "Investimento em energia renovável",
                 afirmacao:"Investir em fontes de energia renovável, como solar e eólica, é uma estratégia crucial para reduzir a pegada de carbono e promover a sustentabilidade ambiental."
             },
             {
