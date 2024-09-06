@@ -6,43 +6,46 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Qual é um dos principais desafios éticos da Inteligência Artificial?",
-        alternativas: [Privacidade de dados
+        enunciado: "Qual é um dos princípios fundamentais do desenvolvimento sustentável?
+",
+        alternativas: 
             {
-                texto:"",
-                afirmacao: "afirmacao1"
+                texto:"Equidade social
+
+",
+                afirmacao: "O desenvolvimento sustentável busca promover a equidade social, garantindo que os benefícios do crescimento econômico sejam distribuídos de maneira justa entre todas as camadas da sociedade."
             },
             {
-                texto: "Denunciando atos de discriminação e apoiando políticas públicas inclusivas.",
-                afirmacao: "afirmacao2"
+                texto: "Maximização dos lucros a curto prazo",
+                afirmacao: "Maximizar os lucros a curto prazo não é um princípio do desenvolvimento sustentável, que prioriza a longevidade e o equilíbrio econômico, social e ambiental."
             }
            
         ]
     },
     {
-        enunciado: "Como você pode ajudar a combater a disseminação de fake news, especialmente as que perpetuam o racismo?",
+        enunciado: "Como o desenvolvimento sustentável pode impactar a economia local?",
         alternativas: [
             {
-                texto: "Verificando a veracidade das informações antes de compartilhar qualquer conteúdo, especialmente sobre temas sensíveis como racismo.",
-                afirmacao: "afirmacao3"
+                texto: "Geração de empregos verdes.",
+                afirmacao: "O desenvolvimento sustentável pode estimular a criação de empregos verdes e novas oportunidades econômicas em setores que promovem a conservação ambiental e a eficiência energética."
             },
             {
-                texto: "Educando amigos e familiares sobre os perigos das fake news e incentivando-os a não compartilhar conteúdos falsos que perpetuam o racismo.",
-                afirmacao: "afirmacao4"
+                texto: "Aumento da desigualdade econômica",
+                afirmacao: "O desenvolvimento sustentável tem como objetivo reduzir a desigualdade econômica, promovendo a inclusão e a justiça social, ao invés de aumentar a disparidade."
             }
            
         ]
     },
     {
-        enunciado: "Como podemos incentivar o uso de energia solar e outras formas de energia limpa, especialmente em comunidades carentes?",
+        enunciado: "Qual é uma estratégia comum para alcançar os objetivos de desenvolvimento sustentável?",
         alternativas: [
             {
-                texto: "Defendendo políticas públicas que subsidiem a energia solar para famílias de baixa renda.",
-                afirmacao:"afirmacao5"
+                texto: "Investimento em energia renovável"
+                afirmacao:"Investir em fontes de energia renovável, como solar e eólica, é uma estratégia crucial para reduzir a pegada de carbono e promover a sustentabilidade ambiental."
             },
             {
-                texto: "Promovendo a instalação de painéis solares em escolas e centros comunitários de comunidades marginalizadas.",
-                afirmacao:"afirmacao6"
+                texto: "Aumento da produção industrial sem regulamentação",
+                afirmacao:"A produção industrial desregulada pode ser prejudicial para a sustentabilidade, e não é uma estratégia alinhada com os objetivos do desenvolvimento sustentável."
             }
         ]
     }  
