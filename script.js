@@ -6,8 +6,8 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "O que é desenvolvimento sustentável e quais são seus principais pilares?",
-        alternativas: [
+        enunciado: "Qual é um dos principais desafios éticos da Inteligência Artificial?",
+        alternativas: [Privacidade de dados
             {
                 texto:"",
                 afirmacao: "afirmacao1"
